@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libxslt_so", "libxslt_so.vcproj", "{BB1BE431-61E5-4ADB-AB15-CE08D90ED279}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xsltproc", "xsltproc.vcproj", "{404F3152-3D6D-4588-9983-8052B4A405CE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BB1BE431-61E5-4ADB-AB15-CE08D90ED279} = {BB1BE431-61E5-4ADB-AB15-CE08D90ED279}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB1BE431-61E5-4ADB-AB15-CE08D90ED279}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BB1BE431-61E5-4ADB-AB15-CE08D90ED279}.Debug|Win32.Build.0 = Debug|Win32
+		{BB1BE431-61E5-4ADB-AB15-CE08D90ED279}.Release|Win32.ActiveCfg = Release|Win32
+		{BB1BE431-61E5-4ADB-AB15-CE08D90ED279}.Release|Win32.Build.0 = Release|Win32
+		{404F3152-3D6D-4588-9983-8052B4A405CE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{404F3152-3D6D-4588-9983-8052B4A405CE}.Debug|Win32.Build.0 = Debug|Win32
+		{404F3152-3D6D-4588-9983-8052B4A405CE}.Release|Win32.ActiveCfg = Release|Win32
+		{404F3152-3D6D-4588-9983-8052B4A405CE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
